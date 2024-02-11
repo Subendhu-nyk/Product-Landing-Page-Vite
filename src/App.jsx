@@ -1,32 +1,32 @@
-import React from 'react'
+import { Hero,Footer,CustomerReviews,PopularProducts,Services,SpecialOffer,Subscribe,SuperQuality } from "./sections"
 
 const App = () => {
   return (
     <main className='relative'>
-      Nav
+      {/* <Nav/> */}
       <section className="xl:padding-1 wide:padding-r padding-b">
-      Hero
+      <Hero/>
       </section>
       <section className='padding'>
-      popular products
+      <PopularProducts/>
       </section>
       <section className='padding'>
-      super quality
+      <SuperQuality/>
       </section>
       <section className='padding-x py-10'>
-      services
+      <Services/>
       </section>
       <section className='padding'>
-      special offer
+      <SpecialOffer/>
       </section>
       <section className='bg-pale-blue padding'>
-      Customer reviews
+      <CustomerReviews/>
       </section>
       <section className='padding-x sm:py-32 py-16 w-full'>
-      subscribe
+      <Subscribe/>
       </section>
       <section className='bg-black padding-x padding-t pb-8'>
-      footer
+      <Footer/>
       </section>
     </main>
   )
