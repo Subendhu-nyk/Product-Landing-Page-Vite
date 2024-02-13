@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigProduct1,bigProduct2,bigProduct3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailProduct1,thumbnailProduct2,thumbnailProduct3 } from "../assets/images";
+import { bigProduct1,bigProduct2,bigProduct3, customer1, customer2, product1, product2, product3, product4, thumbnailProduct1,thumbnailProduct2,thumbnailProduct3 } from "../assets/images";
 
 
 
@@ -47,26 +47,54 @@ export const statistics = [
     { value: '250k+', label: 'Customers' },
 ];
 
+// export const products = [
+//     {
+//         imgURL: shoe4,
+//         name: "Nike Air Jordan-01",
+//         price: "$200.20",
+//     },
+//     {
+//         imgURL: shoe5,
+//         name: "Nike Air Jordan-10",
+//         price: "$210.20",
+//     },
+//     {
+//         imgURL: shoe6,
+//         name: "Nike Air Jordan-100",
+//         price: "$220.20",
+//     },
+//     {
+//         imgURL: shoe7,
+//         name: "Nike Air Jordan-001",
+//         price: "$230.20",
+//     },
+// ];
+
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL: product1,
+        name: "Huggies",
+        price: "₹770",
+        rating:"4.8"
+        
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        imgURL: product2,        
+        name: "Cerelac",
+        price: "₹260",
+        rating:"4.6"
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        imgURL: product3,
+        name: "Mintop",
+        price: "₹900",
+        rating:"4.1"
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: product4,
+        name: "Revital Multivitamin",
+        price: "$499",
+        rating:"4"
     },
 ];
 
