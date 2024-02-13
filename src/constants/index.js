@@ -102,12 +102,12 @@ export const services = [
     {
         imgURL: truckFast,
         label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        subtext: "Shop worry-free! Enjoy complimentary shipping on all orders above ₹ 500"
     },
     {
         imgURL: shieldTick,
         label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        subtext: "Worry-free transactions start here! Choose your preferred payment method with complete security"
     },
     {
         imgURL: support,
