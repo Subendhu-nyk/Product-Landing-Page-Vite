@@ -1,4 +1,4 @@
-const ShoeCard = ({imgURL,changebigProductImage,bigProductImg}) => {
+const ProductCard = ({imgURL,changebigProductImage,bigProductImg}) => {
     const handleClick=()=>{
         if(bigProductImg !==imgURL.bigProduct)
         {
@@ -14,4 +14,4 @@ const ShoeCard = ({imgURL,changebigProductImage,bigProductImg}) => {
   )
 }
 
-export default ShoeCard
+export default ProductCard

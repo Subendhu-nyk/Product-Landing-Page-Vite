@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigProduct1,bigProduct2,bigProduct3, customer1, customer2, product1, product2, product3, product4, thumbnailProduct1,thumbnailProduct2,thumbnailProduct3 } from "../assets/images";
+import { bigProduct1,bigProduct2,bigProduct3, customer5,customer3,customer4, product1, product2, product3, product4, thumbnailProduct1,thumbnailProduct2,thumbnailProduct3 } from "../assets/images";
 
 
 
@@ -11,20 +11,6 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
-// export const shoes = [
-//     {
-//         thumbnail: thumbnailShoe1,
-//         bigShoe: bigShoe1,
-//     },
-//     {
-//         thumbnail: thumbnailShoe2,
-//         bigShoe: bigShoe2,
-//     },
-//     {
-//         thumbnail: thumbnailShoe3,
-//         bigShoe: bigShoe3,
-//     },
-// ];
 
 export const product = [
     {
@@ -47,28 +33,7 @@ export const statistics = [
     { value: '250k+', label: 'Customers' },
 ];
 
-// export const products = [
-//     {
-//         imgURL: shoe4,
-//         name: "Nike Air Jordan-01",
-//         price: "$200.20",
-//     },
-//     {
-//         imgURL: shoe5,
-//         name: "Nike Air Jordan-10",
-//         price: "$210.20",
-//     },
-//     {
-//         imgURL: shoe6,
-//         name: "Nike Air Jordan-100",
-//         price: "$220.20",
-//     },
-//     {
-//         imgURL: shoe7,
-//         name: "Nike Air Jordan-001",
-//         price: "$230.20",
-//     },
-// ];
+
 
 export const products = [
     {
@@ -118,16 +83,22 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
+        imgURL: customer3,
+        customerName: 'Amit',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Dropped by Urmila Pharmacy last week for some emergency meds and was super impressed. The staff was chill and really helpful. Found everything I needed in a snap. Definitely my go-to spot now for all things health-related."
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota ',
+        imgURL: customer5,
+        customerName: 'Manasmita',
+        rating: 4.7,
+        feedback: "Needed some last-minute travel vaccines, and Urmila Pharmacy sorted me out. No fuss, no muss. The place might not look like much from the outside, but the service is top-notch. Highly recommend!"
+    },
+    {
+        imgURL: customer4,
+        customerName: 'Rakesh',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "I’ve been to a few pharmacies in Bhubaneswar, but Urmila Pharmacy stands out. It’s not just about the meds; it’s the warm, friendly vibe that makes you feel right at home. Plus, they always seem to have what I need. Love it here!"
     }
 ];
 
@@ -136,12 +107,11 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Baby Product", link: "/" },
+            { name: "Beauty Product", link: "/" },
+            { name: "Medical Equipments", link: "/" },
+            { name: "Health Products", link: "/" },
+            { name: "Sanitation Product", link: "/" },            
         ],
     },
     {
@@ -149,7 +119,7 @@ export const footerLinks = [
         links: [
             { name: "About us", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
+            { name: "How we work", link: "/" },
             { name: "Privacy policy", link: "/" },
             { name: "Payment policy", link: "/" },
         ],
@@ -157,8 +127,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@urmilapharmacy.com", link: "mailto:customer@nike.com" },
+            { name: "+917538069653", link: "tel:+92554862354" },
         ],
     },
 ];

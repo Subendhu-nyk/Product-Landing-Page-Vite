@@ -3,7 +3,7 @@ import { useState } from "react"
 import { arrowRight } from "../assets/icons"
 import {product, statistics} from '../constants'
 import {bigProduct1} from '../assets/images'
-import ShoeCard from "../components/ShoeCard"
+import ProductCard from "../components/ProductCard"
 
 const Hero = () => {
   const [bigProductImg, setbigProductImg] = useState(bigProduct1);
@@ -55,7 +55,7 @@ const Hero = () => {
         <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
           {product.map((image, index) => (          
             <div key={index}>     
-              <ShoeCard
+              <ProductCard
 
                 index={index}
                 imgURL={image}
